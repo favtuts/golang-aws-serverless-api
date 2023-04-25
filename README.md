@@ -11,3 +11,12 @@ Learn how to build your first Lambda Function with Go! We'll create a basic hell
 ```
 $ go mod init github.com/favtuts/golang-aws-serverless-api
 ```
+
+## create entry point
+
+Create `main.go` and print simple message `Hello world`, then run it by command
+```
+$ go run ./main.go
+
+2023/04/25 15:16:22 Hello world
+```
