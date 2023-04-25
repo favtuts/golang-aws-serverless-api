@@ -20,3 +20,12 @@ $ go run ./main.go
 
 2023/04/25 15:16:22 Hello world
 ```
+
+## install go sdk for aws
+
+```
+$ go get -u github.com/aws/aws-lambda-go
+
+go: downloading github.com/aws/aws-lambda-go v1.40.0
+go: added github.com/aws/aws-lambda-go v1.40.0
+```
