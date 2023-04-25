@@ -73,3 +73,17 @@ You can test the lambda by creating new event with template: `apigateway-aws-pro
   "body": "{\"message\":\"Hello Shane Van Boening\"}"
 }
 ```
+
+## testing the lambda
+
+Install the Testify library
+```
+$ go get -u github.com/stretchr/testify
+
+go: downloading github.com/stretchr/testify v1.8.2
+go: downloading github.com/stretchr/objx v0.5.0
+go: added github.com/stretchr/objx v0.5.0
+go: upgraded github.com/stretchr/testify v1.7.2 => v1.8.2
+```
+
+Reference to an example of using [AWS Lambda with GO](https://github.com/aws-samples/lambda-go-samples)
