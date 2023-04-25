@@ -45,3 +45,17 @@ $ sudo apt install zip unzip
 $ zip --version
 $ zip golang-hello-world-lambda.zip main
 ```
+
+## create AWS Lambda from console
+
+Create new AWS Lambda from scratch and then upload a zip file, then edit the runtime settings change handler from `hello` to `main` because our entry point is main function.
+
+## test the AWS lambda with event
+
+Execute the test event
+```
+START RequestId: e8b036b9-5b1f-40f6-a7e4-93d1698e453b Version: $LATEST
+2023/04/25 16:32:24 Hello world
+END RequestId: e8b036b9-5b1f-40f6-a7e4-93d1698e453b
+REPORT RequestId: e8b036b9-5b1f-40f6-a7e4-93d1698e453b	Duration: 2.33 ms	Billed Duration: 3 ms	Memory Size: 512 MB	Max Memory Used: 30 MB	Init Duration: 97.32 ms	
+```
