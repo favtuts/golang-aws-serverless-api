@@ -29,3 +29,11 @@ $ go get -u github.com/aws/aws-lambda-go
 go: downloading github.com/aws/aws-lambda-go v1.40.0
 go: added github.com/aws/aws-lambda-go v1.40.0
 ```
+
+## handle api gateway proxy request
+
+Build the lambda
+```
+$ export GOOS="linux"
+$ go build main.go
+```
