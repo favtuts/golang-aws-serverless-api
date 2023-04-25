@@ -37,3 +37,11 @@ Build the lambda
 $ export GOOS="linux"
 $ go build main.go
 ```
+
+## zip the executable file 
+
+```
+$ sudo apt install zip unzip
+$ zip --version
+$ zip golang-hello-world-lambda.zip main
+```
