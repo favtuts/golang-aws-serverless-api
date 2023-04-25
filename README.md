@@ -59,3 +59,17 @@ START RequestId: e8b036b9-5b1f-40f6-a7e4-93d1698e453b Version: $LATEST
 END RequestId: e8b036b9-5b1f-40f6-a7e4-93d1698e453b
 REPORT RequestId: e8b036b9-5b1f-40f6-a7e4-93d1698e453b	Duration: 2.33 ms	Billed Duration: 3 ms	Memory Size: 512 MB	Max Memory Used: 30 MB	Init Duration: 97.32 ms	
 ```
+
+# person json lanbda
+
+We will process the post json data as a Person via API Gateway and our Lambda need to process the request and return a specify message based on incommed request json data.
+
+You can test the lambda by creating new event with template: `apigateway-aws-proxy`, more detail in the file `person-event.json`, and it return the result:
+```json
+{
+  "statusCode": 200,
+  "headers": null,
+  "multiValueHeaders": null,
+  "body": "{\"message\":\"Hello Shane Van Boening\"}"
+}
+```

@@ -1,0 +1,12 @@
+// Json data
+{
+    "firstName": "Shane",
+    "lastName": "Van Boening"
+}
+
+// Json minified
+{"firstName":"Shane","lastName":"Van Boening"}
+
+
+// Json escaped
+{\"firstName\":\"Shane\",\"lastName\":\"Van Boening\"}
